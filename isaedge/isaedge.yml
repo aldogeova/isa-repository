@@ -13,3 +13,5 @@ zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 signing.key: "345345fsdfsf5345"
+#Configuracion Seguridad
+spring.oauth2.resource.loadBalanced: true
