@@ -1,5 +1,5 @@
 #Configuracion del Servidor
-server.port: 8761
+server.port: 8901
 server.contextPath: /auth
 #Configuracion de EUREKA
 eureka.instance.preferIpAddress: true
