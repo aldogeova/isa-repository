@@ -10,6 +10,7 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.isaauth: /auth/**
 zuul.routes.commonservice: /common/**
+zuul.routes.facturacionoffline: /facturacionoffline/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
