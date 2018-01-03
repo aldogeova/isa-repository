@@ -1,5 +1,5 @@
 #Configuracion del servidor
-server.port: 8080
+server.port: 8383
 #Configuracion de Eureka
 eureka.instance.preferIpAddress: true
 eureka.client.registerWithEureka: true
