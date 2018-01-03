@@ -14,6 +14,6 @@ zuul.routes.seguridadservice: /seguridad/**
 zuul.routes.facturacionoffline: /facturacionoffline/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
-zuul.ignored-headers: Access-Control-Allow-Credentials, Access-Control-Allow-Origin
+zuul.ignored-headers:  Access-Control-Allow-Origin
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 signing.key: "345345fsdfsf5345"
