@@ -16,4 +16,4 @@ spring.mail.properties.mail.smtp.auth: true
 spring.mail.properties.mail.smtp.starttls.enable: true
 
 #Variables globales para todos los proyectos 
-servidor.zuul = http://localhost:8383/
+servidor.zuul : http://localhost:8383/
