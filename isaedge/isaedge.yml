@@ -13,6 +13,7 @@ zuul.routes.commonservice: /common/**
 zuul.routes.seguridadservice: /seguridad/**
 zuul.routes.facturacionoffline: /facturacionoffline/**
 zuul.routes.personaservice: /persona/**
+zuul.routes.comprobantesservice: /comprobantes/** 
 zuul.routes.inventarioservice: /inventario/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
