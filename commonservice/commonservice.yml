@@ -14,6 +14,7 @@ spring.mail.username: aldogeova@gmail.com
 spring.mail.password: 8914Gm@3l1987!
 spring.mail.properties.mail.smtp.auth: true
 spring.mail.properties.mail.smtp.starttls.enable: true
+spring.thymeleaf.check-template-location: false
 
 #Variables globales para todos los proyectos 
 servidor.zuul : http://localhost:8383/
