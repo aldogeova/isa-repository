@@ -15,6 +15,7 @@ zuul.routes.facturacionoffline: /facturacionoffline/**
 zuul.routes.personaservice: /persona/**
 zuul.routes.comprobantesservice: /comprobantes/** 
 zuul.routes.inventarioservice: /inventario/**
+zuul.routes.contabilidadservice: /contabilidad/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 zuul.ignored-headers:  Access-Control-Allow-Origin
