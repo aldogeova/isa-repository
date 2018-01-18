@@ -1,7 +1,8 @@
 server.port: 8761
 eureka.client.register-with-eureka: false
 eureka.client.fetch-registry: false
-eureka.server.waitTimeInMsWhenSyncEmpty: 0
+eureka.server.waitTimeInMsWhenSyncEmpty: 45000
+#eureka.server.numberRegistrySyncRetries: 0
 eureka.serviceUrl.defaultZone: http://localhost:8761
 #logging.level.com.netflix: WARN, ERROR
 #logging.level.org.springframework: WARN, ERROR
