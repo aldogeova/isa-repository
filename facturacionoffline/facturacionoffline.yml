@@ -9,16 +9,14 @@ eureka.client.fetchRegistry: true
 eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
 #Configuracion de Base de Datos
 spring.jpa.database: "POSTGRESQL"
-spring.datasource.platform:  "postgres"
+spring.datasource.platform: postgres
 spring.jpa.show-sql: "true"
-spring.database.driverClassName: "org.postgresql.Driver"
-spring.datasource.url: "jdbc:postgresql://localhost:5432/isacode"
-spring.datasource.driver-class-name: "org.postgresql.Driver"
+spring.datasource.url: jdbc:postgresql://68.169.60.123:5432/isacode
 spring.datasource.username: "postgres"
-spring.datasource.password: "postgres"
-spring.datasource.testWhileIdle: "true"
+spring.datasource.password: "P@ssw0rd"
+spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.validationQuery: "SELECT 1"
-spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect" 
 
 #Configuracion de Correo Electronico
 spring.mail.host: smtp.gmail.com
