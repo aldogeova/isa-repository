@@ -21,3 +21,5 @@ zuul.debug.request: true
 zuul.ignored-headers:  Access-Control-Allow-Origin
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 signing.key: "345345fsdfsf5345"
+spring.http.multipart.max-file-size: 5000MB
+spring.http.multipart.max-request-size: 5000MB
