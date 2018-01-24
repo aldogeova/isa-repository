@@ -19,5 +19,5 @@ spring.datasource.password: "postgres"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
-spring.http.multipart.max-file-size: 5000MB
-spring.http.multipart.max-request-size: 5000MB
+spring.http.multipart.max-file-size: 50Mb
+spring.http.multipart.max-request-size: 50Mb
