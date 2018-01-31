@@ -19,7 +19,8 @@ zuul.routes.contabilidadservice: /contabilidad/**
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
 zuul.ignored-headers:  Access-Control-Allow-Origin
-hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3600000
+hystrix.command.default.execution.timeout.enabled: false
+#hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 3600000
 signing.key: "345345fsdfsf5345"
 spring.servlet.multipart.max-file-size: 50Mb
 spring.servlet.multipart.max-request-size: 50Mb
