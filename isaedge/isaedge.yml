@@ -6,6 +6,7 @@ eureka.client.registerWithEureka: true
 eureka.client.fetchRegistry: true
 eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
 #Configuracion de Zuul
+zuul.ribbonIsolationStrategy: THREAD
 zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.isaauth: /auth/**
