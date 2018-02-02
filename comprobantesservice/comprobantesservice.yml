@@ -20,6 +20,9 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 
+hystrix.shareSecurityContext: true
+feign.hystrix.enabled: true
+
 #Configuracion de Correo Electronico
 spring.mail.host: smtp.gmail.com
 spring.mail.port: 587
