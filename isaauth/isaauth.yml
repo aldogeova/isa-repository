@@ -24,3 +24,5 @@ spring.datasource.password: "postgres"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+#Configuracion de firma JWT
+signing.key: "345345fsdfsf5345"
