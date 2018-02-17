@@ -1,5 +1,5 @@
 #Configuracion sERVIDOR
-server.port: 8081
+server.port: 8120
 #Configuracion Seguridad
 security.oauth2.resource.userInfoUri: http://localhost:8901/auth/user
 #Configuracion de Eureka
