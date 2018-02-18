@@ -6,7 +6,7 @@ security.oauth2.resource.userInfoUri: http://isa-auth:8901/auth/user
 eureka.instance.preferIpAddress: true
 eureka.client.registerWithEureka: true
 eureka.client.fetchRegistry: true
-eureka.client.serviceUrl.defaultZone: http://isa-edge:8761/eureka/
+eureka.client.serviceUrl.defaultZone: http://isa-eureka:8761/eureka/
 #Configuracion de Base de Datos
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
