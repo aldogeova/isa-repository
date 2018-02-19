@@ -5,7 +5,7 @@ server.port: 8901
 eureka.instance.preferIpAddress: true
 eureka.client.registerWithEureka: true
 eureka.client.fetchRegistry: true
-eureka.client.serviceUrl.defaultZone: http://localhost:8761/eureka/
+eureka.client.serviceUrl.defaultZone: http://isa-eureka:8761/eureka/
 #Configuracion de LOGS
 #logging.level.com.netflix: WARN, ERROR
 #logging.level.org.springframework: WARN, ERROR
